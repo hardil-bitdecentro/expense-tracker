@@ -1,0 +1,22 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/expenses.db
+
+# Node / Next
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+
+# Env
+.env
+.env.local
+
+# Test artifacts
+frontend/test-results/
+frontend/playwright-report/
+backend/e2e.db
+frontend/AGENTS.md
